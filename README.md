@@ -1,6 +1,6 @@
 # Karabiner Elements Configuration
 
-Config for KE, based on several misc templates I've found online
+Config for KE, based on several other templates I've found online
 
 - caps lock for hyper key (shift + cmd + opt + ctr) with other keys
 - caps lock for Esc when pressed alone
