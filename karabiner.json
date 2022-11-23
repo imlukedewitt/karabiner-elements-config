@@ -352,7 +352,10 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "if ps aux | grep -v grep | grep -vi '/crashpad' | grep -ic 'google chrome'  &> /dev/null; then open -a 'google chrome'; fi"
+                                        "key_code": "a",
+                                        "modifiers": [
+                                            "right_option"
+                                        ]
                                     }
                                 ],
                                 "type": "basic"
@@ -379,7 +382,10 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "if ps aux | grep -v grep | grep -ci 'visual studio code'  &> /dev/null; then open -a 'visual studio code'; fi"
+                                        "key_code": "c",
+                                        "modifiers": [
+                                            "right_option"
+                                        ]
                                     }
                                 ],
                                 "type": "basic"
@@ -406,7 +412,10 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "if ps aux | grep -v grep | grep -ci 'slack'  &> /dev/null; then open -a 'slack'; fi"
+                                        "key_code": "s",
+                                        "modifiers": [
+                                            "right_option"
+                                        ]
                                     }
                                 ],
                                 "type": "basic"
@@ -433,7 +442,10 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "if ps aux | grep -v grep | grep -v Helper | grep -ci 'spotify'  &> /dev/null; then open -a 'spotify'; fi"
+                                        "key_code": "w",
+                                        "modifiers": [
+                                            "right_option"
+                                        ]
                                     }
                                 ],
                                 "type": "basic"
@@ -460,7 +472,10 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "if ps aux | grep -v grep | grep -ci 'firefox'  &> /dev/null; then open -a 'firefox'; fi"
+                                        "key_code": "f",
+                                        "modifiers": [
+                                            "right_option"
+                                        ]
                                     }
                                 ],
                                 "type": "basic"
@@ -487,7 +502,10 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "if ps aux | grep -v grep | grep -ci 'microsoft excel'  &> /dev/null; then open -a 'microsoft excel'; fi"
+                                        "key_code": "x",
+                                        "modifiers": [
+                                            "right_option"
+                                        ]
                                     }
                                 ],
                                 "type": "basic"
@@ -514,7 +532,10 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "if ps aux | grep -v grep | grep -ci 'telegram'  &> /dev/null; then open -a 'telegram'; fi"
+                                        "key_code": "t",
+                                        "modifiers": [
+                                            "right_option"
+                                        ]
                                     }
                                 ],
                                 "type": "basic"
@@ -541,7 +562,10 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "if ps aux | grep -v grep | grep -ci 'iterm2'  &> /dev/null; then open -a 'iterm'; fi"
+                                        "key_code": "r",
+                                        "modifiers": [
+                                            "right_option"
+                                        ]
                                     }
                                 ],
                                 "type": "basic"
@@ -568,7 +592,10 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open -a 'finder'"
+                                        "key_code": "e",
+                                        "modifiers": [
+                                            "right_option"
+                                        ]
                                     }
                                 ],
                                 "type": "basic"
@@ -577,7 +604,7 @@
                                 "conditions": [
                                     {
                                         "bundle_identifiers": [
-                                            "com.googlecode.iterm2"
+                                            "com.hnc.Discord"
                                         ],
                                         "type": "frontmost_application_unless"
                                     }
@@ -595,7 +622,10 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "if ps aux | grep -v grep | grep -ci 'discord'  &> /dev/null; then open -a 'discord'; fi"
+                                        "key_code": "d",
+                                        "modifiers": [
+                                            "right_option"
+                                        ]
                                     }
                                 ],
                                 "type": "basic"
@@ -622,7 +652,10 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "if ps aux | grep -v grep | grep -ci 'zoom'  &> /dev/null; then open -a 'zoom.us'; fi"
+                                        "key_code": "z",
+                                        "modifiers": [
+                                            "right_option"
+                                        ]
                                     }
                                 ],
                                 "type": "basic"
@@ -666,6 +699,14 @@
                                 "type": "basic"
                             },
                             {
+                                "conditions": [
+                                    {
+                                        "bundle_identifiers": [
+                                            "com.microsoft.Outlook"
+                                        ],
+                                        "type": "frontmost_application_unless"
+                                    }
+                                ],
                                 "from": {
                                     "key_code": "v",
                                     "modifiers": {
@@ -679,7 +720,10 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "if ps aux | grep -v grep | grep -ci 'outlook'  &> /dev/null; then open -a 'microsoft outlook'; fi"
+                                        "key_code": "v",
+                                        "modifiers": [
+                                            "right_option"
+                                        ]
                                     }
                                 ],
                                 "type": "basic"
