@@ -6,7 +6,7 @@ Config for KE, based on several other templates I've found online
 - caps lock for Esc when pressed alone
 - press both shifts to toggle caps lock
 - hyper + hjkl for vim motion
-- hyper + {key} for app switching (switch to app if running)
+- hyper + {key} for app switching (Requires [Switcheroo](https://apps.apple.com/us/app/switcheroo-fast-app-switcher/id1198084875))
   - a: Firefox
   - f: Chrome
   - s: Slack
